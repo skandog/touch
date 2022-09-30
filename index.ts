@@ -7,6 +7,7 @@ type Madlad = {
     heavy: boolean,
     name?: string,
     age?: number,
+    badooby: string,
     [key:string] : any
 }
 
@@ -19,3 +20,9 @@ let skandog: Madlad = {
 }
 
 console.log(skandog);
+
+function kingMaker( madlad: Madlad) {
+    return `${madlad.name} is an absolute king! Is he still a Badooby? ${madlad.badooby}`
+}
+
+console.log(kingMaker(skandog));

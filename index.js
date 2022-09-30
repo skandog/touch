@@ -7,3 +7,7 @@ var skandog = {
     badooby: "Of course!"
 };
 console.log(skandog);
+function kingMaker(madlad) {
+    return "".concat(madlad.name, " is an absolute king! Is he still a Badooby? ").concat(madlad.badooby);
+}
+console.log(kingMaker(skandog));
