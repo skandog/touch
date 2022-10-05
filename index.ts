@@ -26,3 +26,4 @@ function kingMaker( madlad: Madlad) {
 }
 
 console.log(kingMaker(skandog));
+console.log('object :>> ');

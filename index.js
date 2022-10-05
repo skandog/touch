@@ -1,6 +1,7 @@
-var sugar = true;
+"use strict";
+let sugar = true;
 console.log(sugar);
-var skandog = {
+let skandog = {
     cool: true,
     heavy: true,
     name: "skandoggy dog",
@@ -8,6 +9,7 @@ var skandog = {
 };
 console.log(skandog);
 function kingMaker(madlad) {
-    return "".concat(madlad.name, " is an absolute king! Is he still a Badooby? ").concat(madlad.badooby);
+    return `${madlad.name} is an absolute king! Is he still a Badooby? ${madlad.badooby}`;
 }
 console.log(kingMaker(skandog));
+console.log('object :>> ');
